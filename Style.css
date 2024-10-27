@@ -1,0 +1,165 @@
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #73039c;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 100;
+}
+
+header1 {
+    align-items: left;
+    padding-left: 0;
+    background: #1dad31;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+h1 {
+    color: #FFFFFF;
+    background-color: #1dad31;
+    text-align: center;
+    padding: 20px;
+}
+
+/*Для форм игроков*/
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player {
+    width: 25%;
+    margin: 10px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 2px 2px 5px #AAAAAA;
+    background-color: #1dad31;
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+.player img {
+    width: 100%;
+    height: auto;
+}
+
+.player h3 {
+    text-align: center;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+.player p {
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+/*Таблица*/
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: Arial, sans-serif;
+    border: 1px solid #add;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: auto;
+    color: #FFFFFF
+}
+
+th,
+td {
+
+    padding: 15px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #730394;
+}
+
+th {
+    background-color: #1dad31;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+td {
+    color: white;
+    border-bottom: 1px solid #add;
+}
+
+/*Меню*/
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    margin-top: 25px;
+    background: #1dad31;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    background: #1dad31;
+    color: #fff;
+    padding: 0px 15px;
+    font-family: arial;
+    line-height: 50px;
+    display: block;
+    border-right: 1px solid #677B27;
+    -moz-transition: all 0.3s 0.01s ease;
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+
+a:hover {
+    background: #63018a;
+}
+
+li {
+    float: left;
+    position: relative;
+    color: #FFFFFF text-align: center;
+}
+
+/*Стили для скрытого выпадающего меню*/
+li>ul {
+    position: absolute;
+    top: 25px;
+    display: none;
+}
+
+li:hover>ul {
+    display: block;
+    width: 250px;
+}
+
+li:hover>ul>li {
+    float: none;
+}
+
+body {
+    font-family: Georgia, "Times New Roman",
+        Times, serif;
+    color: purple;
+    background-color: #63018a
+}
+
+</style>
